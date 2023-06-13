@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+    <head>
+        <title>Sorting Visualizer</title>
+        <link rel="Stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+        <h1>Sorting Visualizer</h1>
+        <div id="container"></div>
+
+        <hr>
+
+        <div id="user_int">
+
+            <div style="margin-right: 100px;">    
+            <p style="font-size: 20px;">Size of the array:</p>
+            <input id="a_size" type="range" min=10 max=100 step=10 value=15>
+            </div>
+
+            <div>
+            <p style="font-size: 20px;">Speed of algo</p>
+            <input id="a_speed" type="range" min=10 max=400 step=-13> 
+            </div>
+
+        </div>
+
+        <div>
+            <button class="button" onclick="init()" style="margin-top: 20px;">Generate New Array!</button>
+        </div>
+        <div style="margin-top: 10px;">
+            <button class="button" onclick="play('bubble')">Bubble Sort</button>
+            <button class="button" onclick="play('selection')">Selection Sort</button>
+            <button class="button" onclick="play('insertion')">Insertion Sort</button>
+            <button class="button" onclick="play('heap')">Heap Sort</button>
+            <button class="button" onclick="play('quick')">Quick Sort</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
+

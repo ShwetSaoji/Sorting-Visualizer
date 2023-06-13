@@ -1,0 +1,46 @@
+#container
+    {
+        height: 300px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bar{
+    width: 10px;
+    background: black;
+    margin: 2px;
+}
+
+#user_int{
+    display: flex;
+}
+
+.button {
+    transition-duration: 0.4s;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #f44336;
+    color: white;
+    border: 2px solid #555555;
+    padding: 12px 28px;
+  }
+  
+  .button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+h1 {
+    font-size: 70px;
+    font-weight: 600;
+    background-image: conic-gradient(#553c9a, #ee4b2b, #00c2cb, #553c9a);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
