@@ -49,7 +49,7 @@ function play(algo){
 function animate(moves){
     
     var inp_speed=document.getElementById('a_speed');
-    speed=parseInt(inp_speed.value);
+    speed= 500 - parseInt(inp_speed.value);
     
     console.log(speed);
     if(moves.length==0){
